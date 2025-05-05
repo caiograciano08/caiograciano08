@@ -2,7 +2,7 @@
 
 <div align="center">
   <img 
-    src="https://github.com/johann0301/johann0301/blob/main/foto-perfil-github.jpg?raw=true" 
+    src="https://github.com/caiograciano08/caiograciano08/blob/main/fotodeperfil.jpeg?raw=true" 
     alt="Foto de Perfil" 
     width="200" 
     height="200" 
@@ -25,7 +25,7 @@
 ```python
 class Developer:
     def __init__(self):
-        self.name = "Johann Bezerra"
+        self.name = "Caio Graciano Nóbrega"
         self.location = "João Pessoa, Brasil"
         self.education = "Ciências da Computação"
         self.experience = {
