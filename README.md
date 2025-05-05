@@ -2,56 +2,64 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Perfil no GitHub</title>
-  <link rel="stylesheet" href="style.css"/>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+      margin-top: 50px;
+    }
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      width: 300px;
+      margin: 0 auto;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .bio {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+    .stats {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .repos {
+      text-align: left;
+    }
+    .repos a {
+      color: #0073e6;
+      text-decoration: none;
+    }
+    .repos a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
 
   <div class="card">
-    <!-- Avatar -->
-    <img src="fotodeperfil.jpeg" alt="Avatar do usuário"/>
-
-    <!-- Nome / Login -->
     <h1>caiograciano08</h1>
-    <!-- Biografia -->
-    <p class="bio">Olá, meu nome é Caio Graciano Nóbrega, tenho 18 anos e estou cursando o primeiro período do curso de Ciência da Computação na UNIESP.
-    </p>
+    <p class="bio">Olá, meu nome é Caio Graciano Nóbrega, tenho 18 anos e estou cursando o primeiro período de Ciência da Computação na UNIESP.</p>
 
-    <!-- Estatísticas -->
     <div class="stats">
-      <div>
-        <div>Seguidores</div>
-        <span>1</span>
-      </div>
-      <div>
-        <div>Seguindo</div>
-        <span>1</span>
-      </div>
-      <div>
-        <div>Repositórios</div>
-        <span>1</span>
-      </div>
+      <div>Seguidores: 1</div>
+      <div>Seguindo: 1</div>
+      <div>Repositórios: 1</div>
     </div>
 
-    <!-- Repositórios -->
     <div class="repos">
-      <h2>Últimos repositórios</h2>
+      <h3>Últimos repositórios</h3>
       <ul>
-        <li>
-          <a href="https://github.com/usuario/repo1" >repo1</a>
-          <span class="stars">★ 30</span>
-        </li>
-        <li>
-          <a href="https://github.com/usuario/repo2" >repo2</a>
-          <span class="stars">★ 15</span>
-        </li>
-        <li>
-          <a href="https://github.com/usuario/repo3" >repo3</a>
-          <span class="stars">★ 8</span>
-        </li>
-        <!-- Adicione mais <li> conforme necessário -->
+        <li><a href="https://github.com/usuario/repo1">repo1</a></li>
+        <li><a href="https://github.com/usuario/repo2">repo2</a></li>
+        <li><a href="https://github.com/usuario/repo3">repo3</a></li>
       </ul>
     </div>
   </div>
