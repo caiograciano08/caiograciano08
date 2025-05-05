@@ -11,7 +11,7 @@
 </div>
 
   
-  <h2 style="color: #00FFD2;">Johann Bezerra</h2>
+  <h2 style="color: #00FFD2;">Caio Graciano Nóbrega</h2>
   <p>🎓 Estudante de Ciências da Computação | 💼 Desenvolvedor Full-Stack</p>
   <p>📍 João Pessoa, Brasil | 🎂 18 anos</p>
   
